@@ -203,6 +203,20 @@
         display: none;
     }
 
+    #mail-container{
+        width: 100%;
+        justify-content: space-around;
+    }
+    #mail-container ion-icon,
+    #mail-container a {
+        flex:1 1 0;
+    }
+
+    #mail-container a{
+        max-width: 500px;
+        border-right: 100px;
+    }
+
     #title{
         display: none;
     }
